@@ -1,0 +1,34 @@
+name: eoto_app
+description: "Each One Teach One Literacy App by NCHD"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Core Backend & Auth
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_storage: any
+  # State Management
+  provider: ^6.1.1
+  # Utilities
+  geolocator: ^10.1.0 # For the 60-min session GPS verification
+  url_launcher: ^6.2.2 # For Help & Support (E10-US3)
+  image_picker: ^1.1.2 # For picking documents to upload
+  http: ^1.2.0 # For making EmailJS API calls
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

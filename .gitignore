@@ -1,0 +1,28 @@
+# Ignore temporary and archive folders so Git push is fast and lightweight
+.gradle/
+.android-sdk/
+.tmp/
+tmp/
+EOTO_Transfer_Pack/
+*.zip
+*.apk
+*.ipa
+*.mpp
+~$*
+
+# Flutter build & cache directories
+eoto_app/build/
+eoto_app/.dart_tool/
+eoto_app/.flutter-plugins
+eoto_app/.flutter-plugins-dependencies
+eoto_app/android/.gradle/
+eoto_app/android/local.properties
+eoto_app/ios/Pods/
+eoto_app/ios/.symlinks/
+
+# Node modules & logs
+node_modules/
+**/node_modules/
+**/dist/
+*.log
+serviceAccountKey.json
